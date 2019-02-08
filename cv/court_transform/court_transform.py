@@ -16,8 +16,8 @@ camera_matrix = np.array([[3.26547440e+03, 0.00000000e+00, 1.98304155e+03],
 distance_coeffs = np.array([[2.83900242e-01, -1.96505698e+00,  6.32435233e-04,
                              6.94889726e-04,  4.24150588e+00]])
 
-images = glob.glob('images/*.jpeg')
-for fname in images:
+fnames = glob.glob('images/*.jpeg')
+for fname in fnames:
     image = cv2.imread(fname)
     print('Processing image ' + fname)
 
@@ -72,10 +72,10 @@ for fname in images:
             # cv2.line draws a line in img from the point(x1,y1) to (x2,y2).
             # (0,0,255) denotes the colour of the line to be
             # drawn. In this case, it is red.
-            cv2.line(image, (x1, y1), (x2, y2), (0, 0, 255), 5)
+            cv2.line(image, (x1, y1), (x2, y2), (0, 0, 255), 4)
 
     cv2.imshow("output", cv2.resize(image, (0, 0), fx=0.25, fy=0.25))
-    # cv2.imwrite("3787_with_lines.jpg", image)
+    # cv2.imwrite(fname + ".with_lines.jpg", image)
 
     # This INCREDIBLY helpful answer let me determine major intersection points
     # of the Hough lines while ignoring the overlap of the near-parallel lines:
