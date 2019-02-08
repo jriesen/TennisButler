@@ -55,7 +55,7 @@ while True:
     # resize the frame, blur it, and convert it to the HSV
     # color space
     frame = imutils.resize(frame, width=600)
-    blurred = cv2.GaussianBlur(frame, (11, 11), 0)
+    blurred = cv2.GaussianBlur(frame, (7, 7), 0)
     hsv = cv2.cvtColor(blurred, cv2.COLOR_BGR2HSV)
 
     # cv2.imshow("Blurr Pass",hsv)
@@ -63,8 +63,8 @@ while True:
     # a series of dilations and erosions to remove any small
     # blobs left in the mask
     mask = cv2.inRange(hsv, greenLower, greenUpper)
-    mask = cv2.erode(mask, None, iterations=2)
-    mask = cv2.dilate(mask, None, iterations=2)
+    mask = cv2.erode(mask, None, iterations=3)
+    mask = cv2.dilate(mask, None, iterations=3)
 
     # cv2.imshow("mask", mask)
     # find contours in the mask and initialize the current
@@ -87,7 +87,7 @@ while True:
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     bilateral_filtered_image = cv2.bilateralFilter(gray, 5, 175, 175)
     # perform canny edge filter on filtered frame
-    edges = cv2.Canny(bilateral_filtered_image, 25, 200)
+    edges = cv2.Canny(bilateral_filtered_image, 50, 200)
 
     # find contours in edges
     _, contours, _ = cv2.findContours(edges, cv2.RETR_TREE,
@@ -121,7 +121,7 @@ while True:
             cv2.circle(frame, (int(x), int(y)), int(radius),
                               (0, 255, 255), 2)
             cv2.circle(frame, center, 5, (0, 0, 255), -1)
-            print(radius)
+            #print(radius)
             # calculate distance to camera using known object dimensions
             distanceCamera = (2.6*focal)/radius
             distText = str(distanceCamera)
