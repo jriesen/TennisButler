@@ -89,7 +89,7 @@ GenerateClassCluster=0
 DocumentUniqueId=AYIQUIIX
 
 [Document4]
-DocumentPath=Schematics\Motor Drivers.SchDoc
+DocumentPath=Schematics\Motor Driver and Encoder.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
