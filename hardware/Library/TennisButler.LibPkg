@@ -38,6 +38,40 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=ATmega2560-16AU.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RKCBYSNF
+
+[Document2]
+DocumentPath=TQFP-100_M.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YJDLMJKG
+
+[Document3]
 DocumentPath=LS7366R.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IMGJONPN
 
-[Document2]
+[Document4]
 DocumentPath=DIP-14.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BLTTOHHC
 
-[Document3]
+[Document5]
 DocumentPath=TSOP65P640X110-14.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PVLVFPJP
 
-[Document4]
+[Document6]
 DocumentPath=VNH5019-E.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YLDJUWCA
 
-[Document5]
+[Document7]
 DocumentPath=MultiPowerSO-30.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,8 +156,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OMMOYOSN
 
-[Document6]
-DocumentPath=ATmega2560-16AU.SchLib
+[Document8]
+DocumentPath=RT6206BHGSP.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -137,24 +171,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=STXNTSFV
-
-[Document7]
-DocumentPath=TQFP-100.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JHYEIKSB
+DocumentUniqueId=XOHQASZB
 
 [OutputGroup1]
 Name=Netlist Outputs
