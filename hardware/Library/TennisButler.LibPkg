@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YJDLMJKG
 
 [Document3]
-DocumentPath=LS7366R.SchLib
+DocumentPath=LS7366R-TS.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PVLVFPJP
 
 [Document6]
-DocumentPath=VNH5019-E.SchLib
+DocumentPath=VNH5019ATR-E.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
