@@ -90,7 +90,7 @@ DocumentUniqueId=MLVCAUGI
 
 [Document4]
 DocumentPath=Schematics\Power Management.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -107,7 +107,7 @@ DocumentUniqueId=MNRCSVBO
 
 [Document5]
 DocumentPath=Schematics\Motor Driver and Encoder.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
