@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RKCBYSNF
 
 [Document6]
-DocumentPath=TQFP-100_M.PcbLib
+DocumentPath=TSQFP50P1600X1600X120-100M.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -137,7 +137,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YJDLMJKG
+DocumentUniqueId=LGOLPVNA
 
 [Document7]
 DocumentPath=LS7366R-TS.SchLib
