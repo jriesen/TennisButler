@@ -6,7 +6,3 @@ ProjectPath=TennisButler.PrjPcb
 ProjectPath=Library\TennisButler.LibPkg
 [Project3]
 ProjectPath=..\..\..\..\..\Public\Documents\Altium\AD19\Examples\SpiritLevel-SL1\SL1 Xilinx Spartan-IIE PQ208 Rev1.02.PrjPcb
-[Project4]
-ProjectPath=..\..\..\..\Downloads\Components - 31.03.19 - 01.38\Components - 31.03.19 - 01.38.LibPkg
-[Project5]
-ProjectPath=..\..\..\..\Downloads\Components - 31.03.19 - 01.58\Components - 31.03.19 - 01.58.LibPkg
