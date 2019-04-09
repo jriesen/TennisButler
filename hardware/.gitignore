@@ -5,9 +5,10 @@
 __Previews
 *.PrjPcbStructure
 *.Dat
-*.REP 
+*.REP
 *.TLT
 *.LOG
+*.ERR
 *.log
 *.htm
 *.$$$
