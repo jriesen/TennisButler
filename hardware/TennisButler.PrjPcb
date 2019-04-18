@@ -231,7 +231,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -1492,12 +1492,12 @@ ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 
 [NetInfos]
-Net1=NetName=VBAT|NetColor=$006E6EFF
+Net1=NetName=GND|NetColor=$0000BE00
 Net2=NetName=+12V|NetColor=clYellow
 Net3=NetName=+5VLO|NetColor=$00FF6EFF
 Net4=NetName=+5VHI|NetColor=$006E6EFF
 Net5=NetName=NetC18_1|NetColor=$006E6EFF
-Net6=NetName=GND|NetColor=$0000BE00
+Net6=NetName=VBAT|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
