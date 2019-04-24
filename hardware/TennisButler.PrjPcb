@@ -1237,7 +1237,7 @@ Type13=2
 Type14=1
 Type15=1
 Type16=1
-Type17=1
+Type17=2
 Type18=1
 Type19=1
 Type20=1
@@ -1594,12 +1594,12 @@ ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 
 [NetInfos]
-Net1=NetName=VBAT|NetColor=$006E6EFF
+Net1=NetName=GND|NetColor=$0000BE00
 Net2=NetName=+12V|NetColor=clYellow
 Net3=NetName=+5VLO|NetColor=$00FF6EFF
 Net4=NetName=+5VHI|NetColor=$006E6EFF
 Net5=NetName=NetC18_1|NetColor=$006E6EFF
-Net6=NetName=GND|NetColor=$0000BE00
+Net6=NetName=VBAT|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
