@@ -326,35 +326,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VMGVWREH
 
-[Document18]
-DocumentPath=TennisButler.Annotation
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[GeneratedDocument1]
-DocumentPath=PCB\TennisButler PCB 4-27-2019 9-18-09 PM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=PCB\TennisButler PCB 4-27-2019 9-49-58 PM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=PCB\TennisButler PCB 4-27-2019 9-50-57 PM.WAS
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1702,12 +1673,12 @@ ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 
 [NetInfos]
-Net1=NetName=VBAT|NetColor=$006E6EFF
+Net1=NetName=GND|NetColor=$0000BE00
 Net2=NetName=+12V|NetColor=clYellow
 Net3=NetName=+5VLO|NetColor=$00FF6EFF
 Net4=NetName=+5VHI|NetColor=$006E6EFF
 Net5=NetName=NetC18_1|NetColor=$006E6EFF
-Net6=NetName=GND|NetColor=$0000BE00
+Net6=NetName=VBAT|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
